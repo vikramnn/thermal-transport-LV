@@ -1,10 +1,11 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="20008000">
+<Library LVVersion="23008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for the Keithley 2182 Nanovoltmeter.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*-!!!*Q(C=\&gt;3R&lt;?.!%)8B:]0"J91&lt;-*1[H0##3^3#7JB%"4![7+&amp;;G":9A#^1Y!;G"=5/"+M&amp;X=`F7*;"AZ3=!2MQK:8&amp;N]P:DUO;5NN_3$=[8.K7:\?R8_/(?L2F(5U`D`V4NJT'4==6N0ZW_*JJ?&gt;,^`HR6C;LQD`HV.P^&lt;`@._H&gt;W__\`\PX&lt;`B9URKYO$0HC4LJK5FL3A/=X;V2W30-G40-G40-G$0-C$0-C$0-C&gt;X-G&gt;X-G&gt;X-G.X-C.X-C.X-D&lt;4CZSE9O=65EG4S:+CC9&amp;EM&amp;1F(QFHM34?")0BUI]C3@R**\%QR!FHM34?"*0YO%U*:\%EXA34_+B6*.EW]HR*"\++`!%HM!4?!)05SLQ")"AMK"Q5!3'AM\A2_!*0)'(HQI]A3@Q"*\!1\=#4_!*0)%H]("+7Z6IGH%HRU-:/2\(YXA=D_/BN"S0YX%]DM@R-*U=D_.R%-[%4H%)=EZS"DA(DM@R]%?/R`%Y(M@D?/BK&gt;]D&lt;SIS;=3@(9XA-D_%R0);(%D)]BM@Q'"\$1VE:(M.D?!S0Y7%K'2\$9XA-C$%JU]MI:JRI$$)#Q]/H03X7\F)UC&lt;7^`D7H"V8V!+I?,.5$IXI16$&gt;9&gt;?.5.U3VU+I&amp;6#W-[I*6&amp;[)#KC:7&amp;61.V*\P,7V$'WBL7E^&lt;U/;U';U&lt;4`X0!`@\P&lt;&lt;&lt;L4;&lt;D9:BU(K^6N`X7CQ7GM`HGMVG[LLO_,;[9Z_WK^0XUMPNY]0O^`X4]]]`$\N_/,RUD\`'@-7YDWL4?_ETP"NVL=0*;ZYV_ANQW%M-!!!!!!</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*-!!!*Q(C=\&gt;3R&lt;?.!%)8B:]0"J91&lt;-*1[H0##3^3#7JB%"4![7+&amp;;G":9A#^1Y!;G"=5/"+M&amp;X=`F7*;"AZ3=!2MQK:8&amp;N]P:DUO;5NN_3$=[8.K7:\?R8_/(?L2F(5U`D`V4NJT'4==6N0ZW_*JJ?&gt;,^`HR6C;LQD`HV.P^&lt;`@._H&gt;W__\`\PX&lt;`B9URKYO$0HC4LJK5FL3A/=X;V2W30-G40-G40-G$0-C$0-C$0-C&gt;X-G&gt;X-G&gt;X-G.X-C.X-C.X-D&lt;4CZSE9O=65EG4S:+CC9&amp;EM&amp;1F(QFHM34?")0BUI]C3@R**\%QR!FHM34?"*0YO%U*:\%EXA34_+B6*.EW]HR*"\++`!%HM!4?!)05SLQ")"AMK"Q5!3'AM\A2_!*0)'(HQI]A3@Q"*\!1\=#4_!*0)%H]("+7Z6IGH%HRU-:/2\(YXA=D_/BN"S0YX%]DM@R-*U=D_.R%-[%4H%)=EZS"DA(DM@R]%?/R`%Y(M@D?/BK&gt;]D&lt;SIS;=3@(9XA-D_%R0);(%D)]BM@Q'"\$1VE:(M.D?!S0Y7%K'2\$9XA-C$%JU]MI:JRI$$)#Q]/H03X7\F)UC&lt;7^`D7H"V8V!+I?,.5$IXI16$&gt;9&gt;?.5.U3VU+I&amp;6#W-[I*6&amp;[)#KC:7&amp;61.V*\P,7V$'WBL7E^&lt;U/;U';U&lt;4`X0!`@\P&lt;&lt;&lt;L4;&lt;D9:BU(K^6N`X7CQ7GM`HGMVG[LLO_,;[9Z_WK^0XUMPNY]0O^`X4]]]`$\N_/,RUD\`'@-7YDWL4?_ETP"NVL=0*;ZYV_ANQW%M-!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.1.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Public" Type="Folder">
