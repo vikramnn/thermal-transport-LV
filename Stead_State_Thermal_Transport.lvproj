@@ -11,20 +11,35 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Global Variables" Type="Folder" URL="../Global Variables">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Global Variables" Type="Folder">
+			<Item Name="MQM Data Transfer All.vi" Type="VI" URL="../Global Variables/MQM Data Transfer All.vi"/>
 		</Item>
-		<Item Name="Main" Type="Folder" URL="../Main">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Main" Type="Folder">
+			<Item Name="Kxx_Kxy_B_cs580.vi" Type="VI" URL="../Main/Kxx_Kxy_B_cs580.vi"/>
+			<Item Name="Kxx_Kxy_B_cs580_KEguard.vi" Type="VI" URL="../Main/Kxx_Kxy_B_cs580_KEguard.vi"/>
 		</Item>
-		<Item Name="subvis" Type="Folder" URL="../subvis">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="subvis" Type="Folder">
+			<Item Name="cheby6.vi" Type="VI" URL="../subvis/cheby6.vi"/>
+			<Item Name="CS580_SetCurent_DC.vi" Type="VI" URL="../subvis/CS580_SetCurent_DC.vi"/>
+			<Item Name="Data length guard.vi" Type="VI" URL="../subvis/Data length guard.vi"/>
+			<Item Name="GetCoeffsDomains_v1.vi" Type="VI" URL="../subvis/GetCoeffsDomains_v1.vi"/>
+			<Item Name="GetFieldsFromCoeffsFile_v1.vi" Type="VI" URL="../subvis/GetFieldsFromCoeffsFile_v1.vi"/>
+			<Item Name="Kxx_Kxy_calc.vi" Type="VI" URL="../subvis/Kxx_Kxy_calc.vi"/>
+			<Item Name="setDC.vi" Type="VI" URL="/Z/Labview Control Software/Keithley 622x LV 2009/Examples/setDC.vi"/>
+			<Item Name="Write To Spreadsheet File (DBL)2.vi" Type="VI" URL="../subvis/Write To Spreadsheet File (DBL)2.vi"/>
 		</Item>
-		<Item Name="Typedefs" Type="Folder" URL="../Typedefs">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Kxx_Kxy_state_machine_cases.ctl" Type="VI" URL="../Typedefs/Kxx_Kxy_state_machine_cases.ctl"/>
+			<Item Name="PPMS_Status.ctl" Type="VI" URL="../Typedefs/PPMS_Status.ctl"/>
+			<Item Name="Rotator_Status.ctl" Type="VI" URL="../Typedefs/Rotator_Status.ctl"/>
+			<Item Name="ZI_Frontpanel.ctl" Type="VI" URL="../Typedefs/ZI_Frontpanel.ctl"/>
+			<Item Name="ZI_Frontpanel_All.ctl" Type="VI" URL="../Typedefs/ZI_Frontpanel_All.ctl"/>
 		</Item>
+		<Item Name="Thermometer Readout.vi" Type="VI" URL="../Thermometer Readout.vi"/>
+		<Item Name="Thermometers.vi" Type="VI" URL="../Global Variables/Thermometers.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
 				<Item Name="Keithley 622x.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 622x LV 2009/Keithley 622x.lvlib"/>
 				<Item Name="OpenQDInstrument.vi" Type="VI" URL="/&lt;instrlib&gt;/QDInstrument/QDInstrument.llb/OpenQDInstrument.vi"/>
 				<Item Name="QDInstrument.dll" Type="Document" URL="/&lt;instrlib&gt;/QDInstrument/QDInstrument.dll"/>
@@ -97,7 +112,6 @@
 			</Item>
 			<Item Name="Keithley 2182.lvlib" Type="Library" URL="../Drivers/Keithley 2182/Keithley 2182.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="setDC.vi" Type="VI" URL="/Z/Labview Control Software/Keithley 622x LV 2009/Examples/setDC.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
