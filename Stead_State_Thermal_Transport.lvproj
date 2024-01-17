@@ -11,32 +11,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Global Variables" Type="Folder">
-			<Item Name="MQM Data Transfer All.vi" Type="VI" URL="../Global Variables/MQM Data Transfer All.vi"/>
+		<Item Name="Global Variables" Type="Folder" URL="../Global Variables">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Main" Type="Folder">
-			<Item Name="Kxx_Kxy_B_cs580.vi" Type="VI" URL="../Main/Kxx_Kxy_B_cs580.vi"/>
-			<Item Name="Kxx_Kxy_B_cs580_KEguard.vi" Type="VI" URL="../Main/Kxx_Kxy_B_cs580_KEguard.vi"/>
+		<Item Name="Main" Type="Folder" URL="../Main">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="subvis" Type="Folder">
-			<Item Name="cheby6.vi" Type="VI" URL="../subvis/cheby6.vi"/>
-			<Item Name="CS580_SetCurent_DC.vi" Type="VI" URL="../subvis/CS580_SetCurent_DC.vi"/>
-			<Item Name="Data length guard.vi" Type="VI" URL="../subvis/Data length guard.vi"/>
-			<Item Name="GetCoeffsDomains_v1.vi" Type="VI" URL="../subvis/GetCoeffsDomains_v1.vi"/>
-			<Item Name="GetFieldsFromCoeffsFile_v1.vi" Type="VI" URL="../subvis/GetFieldsFromCoeffsFile_v1.vi"/>
-			<Item Name="Kxx_Kxy_calc.vi" Type="VI" URL="../subvis/Kxx_Kxy_calc.vi"/>
-			<Item Name="setDC.vi" Type="VI" URL="/Z/Labview Control Software/Keithley 622x LV 2009/Examples/setDC.vi"/>
-			<Item Name="Write To Spreadsheet File (DBL)2.vi" Type="VI" URL="../subvis/Write To Spreadsheet File (DBL)2.vi"/>
+		<Item Name="subvis" Type="Folder" URL="../subvis">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Typedefs" Type="Folder">
-			<Item Name="Kxx_Kxy_state_machine_cases.ctl" Type="VI" URL="../Typedefs/Kxx_Kxy_state_machine_cases.ctl"/>
-			<Item Name="PPMS_Status.ctl" Type="VI" URL="../Typedefs/PPMS_Status.ctl"/>
-			<Item Name="Rotator_Status.ctl" Type="VI" URL="../Typedefs/Rotator_Status.ctl"/>
-			<Item Name="ZI_Frontpanel.ctl" Type="VI" URL="../Typedefs/ZI_Frontpanel.ctl"/>
-			<Item Name="ZI_Frontpanel_All.ctl" Type="VI" URL="../Typedefs/ZI_Frontpanel_All.ctl"/>
+		<Item Name="Typedefs" Type="Folder" URL="../Typedefs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Thermometer Readout.vi" Type="VI" URL="../Thermometer Readout.vi"/>
-		<Item Name="Thermometers.vi" Type="VI" URL="../Global Variables/Thermometers.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
@@ -110,8 +96,27 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="Initialize.vi" Type="VI" URL="../../Kxx_Kxy_B_cs580_v3_LV20/Z/Labview Control Software/Keithley 622x LV 2009/Initialize.vi"/>
+			<Item Name="Initialize.vi" Type="VI" URL="/Z/Labview Control Software/Kxx_Kxy_B_cs580_v3_LV20/Z/Labview Control Software/Keithley 622x LV 2009/Initialize.vi"/>
+			<Item Name="KE622x -- Instrument Type.ctl" Type="VI" URL="../../Kxx_Kxy_B_cs580_v3_LV20/Z/Labview Control Software/Keithley 622x LV 2009/Utility/Typedefs/KE622x -- Instrument Type.ctl"/>
+			<Item Name="KE622x -- Instrument Type.ctl" Type="VI" URL="/Z/Labview Control Software/Kxx_Kxy_B_cs580_v3_LV20/Z/Labview Control Software/Keithley 622x LV 2009/Utility/Typedefs/KE622x -- Instrument Type.ctl"/>
+			<Item Name="KE622x -- On Off Control.ctl" Type="VI" URL="../Typedefs/KE622x -- On Off Control.ctl"/>
+			<Item Name="KE622x -- On Off Control.ctl" Type="VI" URL="/Z/Labview Control Software/Keithley 622x LV 2009/Typedefs/KE622x -- On Off Control.ctl"/>
+			<Item Name="KE622x -- Set Analog Filter State.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Analog Filter State.vi"/>
+			<Item Name="KE622x -- Set Current Level.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Current Level.vi"/>
+			<Item Name="KE622x -- Set Output State.vi" Type="VI" URL="../Action-Status/KE622x -- Set Output State.vi"/>
+			<Item Name="KE622x -- Set Output State.vi" Type="VI" URL="/Z/Labview Control Software/Keithley 622x LV 2009/Action-Status/KE622x -- Set Output State.vi"/>
+			<Item Name="KE622x -- Set Voltage Limit.vi" Type="VI" URL="../Configure/Source/KE622x -- Set Voltage Limit.vi"/>
+			<Item Name="KE622x -- Turn Output On And Check For Errors.vi" Type="VI" URL="../Action-Status/KE622x -- Turn Output On And Check For Errors.vi"/>
+			<Item Name="KE622x -- Voltage Limit.ctl" Type="VI" URL="../Configure/Source/Typedefs/KE622x -- Voltage Limit.ctl"/>
+			<Item Name="KE622x -- Voltage Limit.ctl" Type="VI" URL="/Z/Labview Control Software/Keithley 622x LV 2009/Configure/Source/Typedefs/KE622x -- Voltage Limit.ctl"/>
+			<Item Name="KE6221 -- Output Response.ctl" Type="VI" URL="../Configure/Output/Typedefs/KE6221 -- Output Response.ctl"/>
+			<Item Name="KE6221 -- Output Response.ctl" Type="VI" URL="/Z/Labview Control Software/Keithley 622x LV 2009/Configure/Output/Typedefs/KE6221 -- Output Response.ctl"/>
+			<Item Name="KE6221 -- Set Output Response.vi" Type="VI" URL="../Configure/Output/KE6221 -- Set Output Response.vi"/>
 			<Item Name="Keithley 2182.lvlib" Type="Library" URL="../Drivers/Keithley 2182/Keithley 2182.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="lvanlys.framework" Type="Document" URL="/&lt;resource&gt;/lvanlys.framework"/>
+			<Item Name="setDC.vi" Type="VI" URL="/Z/Labview Control Software/Keithley 622x LV 2009/Examples/setDC.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
